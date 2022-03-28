@@ -2,6 +2,7 @@ import './App.css';
 import React, {useEffect, useState} from 'react'
 import Loader from './Components/UI/Loader/Loader';
 import Navbar from './Components/UI/Navbar/Navbar';
+import BarChart from './Components/UI/BarChart/BarChart';
 
 function App() {
 
@@ -44,6 +45,14 @@ function App() {
                   min='0'
                   max='9'
                   onChange={ (event) => setStartMag(event.target.value)}/>
+              </div>
+            </section>
+            <section className='row min-vh-100'>
+              <div className='col-12 col-md-6 py-1'>
+                <BarChart data={data}/>
+              </div>
+              <div className='col-12 col-md-6 py-1'>
+                
               </div>
             </section>
           </main>
