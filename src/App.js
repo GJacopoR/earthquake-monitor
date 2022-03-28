@@ -52,7 +52,7 @@ function App() {
                 <BarChart data={data}/>
               </div>
               <div className='col-12 col-md-6 py-1'>
-                
+                <Map data={data} startMag={startMag}/>
               </div>
             </section>
           </main>
