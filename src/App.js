@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react'
 import Loader from './Components/UI/Loader/Loader';
 import Navbar from './Components/UI/Navbar/Navbar';
 import BarChart from './Components/UI/BarChart/BarChart';
+import Map from './Components/UI/Map/Map';
 
 function App() {
 
