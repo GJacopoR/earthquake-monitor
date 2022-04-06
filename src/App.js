@@ -18,7 +18,7 @@ function App() {
   }, [day])
 
   return (
-    <body className="App">
+    <div className="App">
       { data ? (
         <>
           <Navbar day={formatDateISO(day)}
@@ -62,7 +62,7 @@ function App() {
         <>
           <Loader />
         </>)}
-    </body>
+    </div>
   );
 }
 

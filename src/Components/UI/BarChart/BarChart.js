@@ -35,6 +35,9 @@ export default function BarChart(props){
                 color: '#cccccc'
             }
         },
+        credits: {
+            enabled: false
+        },
         subtitle: {
             text: 'Source: <a href="https://earthquake.usgs.gov/">https://earthquake.usgs.gov/</a>'
         },
