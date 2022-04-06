@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/earthquake-monitor/static/css/main.149f69f0.css",
+    "main.js": "/earthquake-monitor/static/js/main.90ee5b08.js",
+    "static/js/787.e7f88c83.chunk.js": "/earthquake-monitor/static/js/787.e7f88c83.chunk.js",
+    "index.html": "/earthquake-monitor/index.html",
+    "main.149f69f0.css.map": "/earthquake-monitor/static/css/main.149f69f0.css.map",
+    "main.90ee5b08.js.map": "/earthquake-monitor/static/js/main.90ee5b08.js.map",
+    "787.e7f88c83.chunk.js.map": "/earthquake-monitor/static/js/787.e7f88c83.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.149f69f0.css",
+    "static/js/main.90ee5b08.js"
+  ]
+}
